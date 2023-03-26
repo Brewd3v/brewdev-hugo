@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Brewdev Blog</title>
-    <link>http://example.org/</link>
+    <link>https://cute-boba-d53a01.netlify.app/</link>
     <description>Recent content on Brewdev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://cute-boba-d53a01.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My first post</title>
-      <link>http://example.org/first-post/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      <title>How to build a simple blog with Hugo and Tailwind CSS</title>
+      <link>https://cute-boba-d53a01.netlify.app/build-a-blog-with-hugo/</link>
+      <pubDate>Sun, 26 Mar 2023 12:00:00 +0100</pubDate>
       
-      <guid>http://example.org/first-post/</guid>
-      <description>Whoop whoop, my first post!</description>
+      <guid>https://cute-boba-d53a01.netlify.app/build-a-blog-with-hugo/</guid>
+      <description>Hello there! In this post, I will show you how to build a simple blog with Hugo and Tailwind CSS. And how to deploy it to Netlify.
+Create a new Hugo site Add a theme or create your own Add Tailwind CSS Add a blog post Deploy to Netlify I won&amp;rsquo;t go into too much detail about Hugo and Tailwind CSS, but I will link to some resources if you want to learn more about them.</description>
     </item>
     
   </channel>

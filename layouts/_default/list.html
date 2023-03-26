@@ -1,13 +1,15 @@
 {{ define "main" }}
-<h1>Blog</h1>
-{{ range .Pages }}
-<article>
-    <h2>
-        <a href="{{ .Permalink }}">
-            {{ .Title }}
-        </a>
-    </h2>
-    <div class="content">{{ .Content }}</div>
-</article>
-{{ end }}
+<div class="prose prose-xl prose-h2:!mt-0">
+    <h1>Blog</h1>
+    {{ range .Pages }}
+    <article>
+        <time datetime="{{ .Date }}" class="text-xs mb-2">{{ .Date.Format "January 2, 2006" }}</time>
+        <h2>
+            <a href="{{ .Permalink }}">
+                {{ .Title }}
+            </a>
+        </h2>
+    </article>
+    {{ end }}
+</div>
 {{ end }}

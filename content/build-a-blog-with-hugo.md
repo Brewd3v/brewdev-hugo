@@ -1,5 +1,6 @@
 ---
 title: "How to build a simple blog with Hugo and Tailwind CSS"
+date: 2023-03-26T12:00:00+01:00
 draft: false
 ---
 
@@ -7,9 +8,9 @@ Hello there! In this post, I will show you how to build a simple blog with Hugo 
 
 1. [Create a new Hugo site](#create-a-new-hugo-site)
 2. [Add a theme or create your own ](#add-a-theme-or-create-your-own)
-3. Add Tailwind CSS
-4. Add a blog post
-5. Deploy to Netlify
+3. [Add Tailwind CSS](#add-tailwind-css)
+4. [Add a blog post](#add-a-blog-post)
+5. [Deploy to Netlify](#deploy-to-netlify)
 
 I won't go into too much detail about Hugo and Tailwind CSS, but I will link to some resources if you want to learn more about them.
 

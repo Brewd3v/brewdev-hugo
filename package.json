@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i assets/tailwind.css -o static/style.css --jit --watch",
-    "build": "npx tailwindcss -i assets/tailwind.css -o static/style.css --jit --minify"
+    "dev": "npx tailwindcss -i assets/tailwind.css -o static/style.css --jit --watch & hugo server -D --noHTTPCache",
+    "build": "npx tailwindcss -i assets/tailwind.css -o static/style.css --jit --minify & hugo"
   },
   "repository": {
     "type": "git",
